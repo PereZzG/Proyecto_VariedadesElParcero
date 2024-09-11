@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variedades El Parcero - Registro</title>
+    <link rel="stylesheet" href="StyleRe.css">
+</head>
+<body>
+    <!-- Título de la página -->
+    <div class="header-title">
+        <span>VARIE</span><span class="letter"><b>D</b></span><span>ADES EL PARCE</span><span class="letter">R</span><span>O</span>
+    </div>    
+    <!-- Contenedor principal que incluye el logo y el formulario -->
+    <div class="main-container">
+        <!-- Logo de la empresa -->
+        
+        
+        <!-- Formulario de registro -->
+        <div class="form-container">
+            <div class="form-title"><b>¡Regístrate!</b></div>
+            <form action="register.php" method="POST">
+                <div class="form-input">
+                    <label for="email" class="text-white"><b>Correo Electrónico</b></label>
+                    <input type="email" id="email" name="email" placeholder="Email" class="input" required>
+                </div>
+                <div class="form-input">
+                    <label for="name" class="text-white"><b>Nombre y Apellido</b></label>
+                    <input type="text" id="name" name="name" placeholder="Alejandro Parra" class="input" required>
+                </div>
+                <div class="form-input">
+                    <label for="password" class="text-white"><b>Contraseña</b></label>
+                    <input type="password" id="password" name="password" placeholder="Contraseña" class="input" required>
+                </div>
+                <button type="submit" class="submit-button">Registrar</button>
+                <button type="button" class="back-button" onclick="location.href='Index.html'">Volver</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
